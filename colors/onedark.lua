@@ -6,6 +6,7 @@ for name, _ in pairs(package.loaded) do
   end
 end
 
+vim.o.termguicolors = true
 vim.o.background = 'dark'
 vim.g.colors_name = 'onedark'
 
